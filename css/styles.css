@@ -5,6 +5,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     font-style: italic;
+    color:floralwhite;
 }
 
 .sansserif{
@@ -13,6 +14,7 @@
     font-size: 20px;
     font-style: oblique ;
     text-align: right;
+    color:floralwhite;
 }
 
 .monospace{
@@ -21,20 +23,23 @@
     font-size: 20px;
     font-style: normal;
     text-align: justify;
+    color:floralwhite;
 }
 
 h1{
     text-shadow: 2px 2px;
+    
 }
 
 h1, h2{
 
-    color: lightsalmon;
-    font-size: 20px;
+    color:#ff0080;
+    font-size: 25px;
     font-weight: normal;
     text-decoration: underline;
     text-transform: uppercase;
     letter-spacing: 4px;
+    background-color:pink;
     /* text-indent: 3px; */
 }
 
@@ -43,11 +48,13 @@ h1, h2{
 
     text-align: center;
     font-variant: small-caps;
+    color:floralwhite;
 }
 
 .google{
     font-family: 'Yellowtail', cursive;
     font-size: 30px;
+    color:floralwhite;
 }
 
 a{
@@ -56,9 +63,37 @@ a{
 
 ul.list{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: skyblue;
+    color: floralwhite;
     text-transform: uppercase;
     font-size: 15px;
     letter-spacing: 5px;
     list-style-type: upper-roman;
+}
+
+/* Background */
+
+.strawberry{
+
+    background-color:#ff0080;
+
+}
+
+.cake{
+
+    background-color:#804000;
+}
+
+.gloss{
+    
+    background-color:#d53032;  
+}
+
+#bg{
+    height:1000px;
+    width: 1000px;
+    background-color:#fd475d;
+    background-image: url(../img/cake.png.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
 }
