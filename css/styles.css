@@ -1,0 +1,64 @@
+/* Font & Text Properties */
+
+.serif{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.sansserif{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: oblique ;
+    text-align: right;
+}
+
+.monospace{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: normal;
+    text-align: justify;
+}
+
+h1{
+    text-shadow: 2px 2px;
+}
+
+h1, h2{
+
+    color: lightsalmon;
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    /* text-indent: 3px; */
+}
+
+
+.aling{
+
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.google{
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul.list{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: skyblue;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 5px;
+    list-style-type: upper-roman;
+}
